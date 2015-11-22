@@ -6,6 +6,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body id="app">
@@ -16,6 +17,9 @@
       <div id="content">
         <div class="row" v-for="special in specials">
           <div class="col-md-1">{{special.title}}</div>
+          <div class="col-md-1">
+            <input type="number" size="1" style="width: 80px;" value="0">
+          </div>
           <div class="col-md-1" v-for="perk in special.perks">
             {{perk.title}}
           </div>
