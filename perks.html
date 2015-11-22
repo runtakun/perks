@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Fallout 4 Perks List</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body id="app">
-    <h1>Fallout 4 Perks List</h1>
-    <div id="main">
-      <ul>
-        <li v-for="item in items">{{item.title}}</li>
-      </ul>
+    <div id="main" class="container">
+      <header>
+        <h1>Fallout 4 Perks List</h1>
+      </header>
+      <div id="content">
+        <div class="row" v-for="special in specials">
+          <div class="col-md-1">{{special.title}}</div>
+          <div class="col-md-1" v-for="perk in special.perks">
+            {{perk.title}}
+          </div>
+        </div>
+      </div>
     </div>
     <!-- script -->
     <script src="./dist/bundle.js"></script>

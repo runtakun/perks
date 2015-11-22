@@ -4,7 +4,7 @@ var runSequence = require('run-sequence');
 var source = require('vinyl-source-stream');
 
 gulp.task('watch', function() {
-    gulp.watch(['src/**/*.js', 'src/**/*.html', 'components/**/*.vue'], ['browserify']);
+    gulp.watch(['src/**/*.js', './*.html', 'components/**/*.vue'], ['browserify']);
 });
 
 gulp.task('browserify', function() {
