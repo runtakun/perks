@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/runtakun/perks/issues"
   },
-  "homepage": "https://github.com/runtakun/perks#readme"
+  "homepage": "https://github.com/runtakun/perks#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
