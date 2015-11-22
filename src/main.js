@@ -8,6 +8,7 @@ var app = module.exports = new Vue({
     specials: [
       {
         title: "Strength",
+        val: 1,
         perks: [
           {
             level: 1,
@@ -37,6 +38,7 @@ var app = module.exports = new Vue({
       },
       {
         title: "Perception",
+        val: 1,
         perks: [
           {
             level: 1,

@@ -18,7 +18,7 @@
         <div class="row" v-for="special in specials">
           <div class="col-md-1">{{special.title}}</div>
           <div class="col-md-1">
-            <input type="number" size="1" style="width: 80px;" value="0">
+            <input type="number" size="1" min="1" max="10" style="width: 80px;" v-model="special.val" number lazy>
           </div>
           <div class="col-md-1" v-for="perk in special.perks">
             {{perk.title}}
