@@ -1,0 +1,31 @@
+{
+  "name": "perks",
+  "version": "1.0.0",
+  "description": "fallout 4 perks list",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runtakun/perks.git"
+  },
+  "keywords": [
+    "vue.js",
+    "fallout"
+  ],
+  "author": "Hiroyuki Shigeta <shigeta@glgl.org>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/runtakun/perks/issues"
+  },
+  "homepage": "https://github.com/runtakun/perks#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "run-sequence": "^1.1.5",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.8"
+  }
+}
