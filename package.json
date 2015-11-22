@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/runtakun/perks#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.8"
   }
 }
